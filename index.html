@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Software Visualizer</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" /> 
+	<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+	
+    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.color.js"></script>
+    <script type="text/javascript" src="js/libs/raphael.js"></script>
+	<script type="text/javascript" src="js/libs/Code.js"></script>
+    <script type="text/javascript" src="js/znode/nodegraph.js"></script>
+    <script type="text/javascript" src="js/znode/ui.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+	
+  </head>
+  <body>
+    <div id="openWin">
+      <div id="view_title">Views:</div>
+      <div id="view_link"></div>
+    </div>
+    <div id="overlay"></div>
+    <div id="controls">
+      <div id="logo" >Software Visualizer</div>
+      <div id="openProject" class="btn">Load</div>
+      <div id="views" class="btn">Views</div>
+      <div id="clear" class="btn">Clear All</div>
+      <div id="help" class="btn">Help</div>
+      <div id="projectForm">
+        <form id="nameForm">
+         Name :
+         <input type="text" name="projectname" id="projectname" spellcheck="false"/>
+        </form>
+      </div>
+    </div>
+	
+    <div id="canvas"></div>
+	<div id="hidden_area"></div>
+  </body>
+</html>
+  
